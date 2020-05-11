@@ -20,11 +20,11 @@ function checkTheme() {
     const localStorageTheme = localStorage.getItem("theme");
 
     if (localStorageTheme !== null && localStorageTheme === "dark") {
+        // set the theme of body
         document.body.className = localStorageTheme;
-        const themeSwitchRound = document.getElementById("theme-switch-round");
 
+        // adjust the slider position
         const themeSwitch = document.getElementById("theme-switch");
         themeSwitch.checked = true;
-        themeSwitchRound.classList.add("local-dark");
     }
 }

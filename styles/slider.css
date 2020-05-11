@@ -1,15 +1,6 @@
 :root {
     --toggle-light: hsl(230, 22%, 74%);
     --toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
-    --slider-position: 32px;
-}
-.local-dark {
-    --toggle-background: var(--toggle-dark);
-    --slider-position: 14px;
-}
-.local-light {
-    --toggle-background: var(--toggle-light);
-    --slider-position: 32px;
 }
 /* The switch - the box around the slider */
 .switch {
@@ -41,7 +32,7 @@
     content: "";
     height: 20px;
     width: 20px;
-    left: var(--slider-position);
+    left: 32px;
     bottom: 5px;
     background-color: #fff;
     transition: 0.4s;
