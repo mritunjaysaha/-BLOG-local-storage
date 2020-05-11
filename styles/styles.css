@@ -1,0 +1,27 @@
+/*
+  Theme
+*/
+.dark {
+    --main-background: hsl(230, 17%, 14%);
+    --main-font: white;
+}
+
+.light {
+    --main-background: white;
+    --main-font: hsl(230, 17%, 14%);
+}
+
+body {
+    background: var(--main-background);
+    color: var(--main-font);
+}
+
+.toggle-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-switch p {
+    padding: 1em;
+}
